@@ -25,3 +25,5 @@ NOTE: it is a 33 second video (URL below). the video is set to play on loop. aft
 * __CODE: the current implemented functionality, simply calls '.Play()' on button press and does not use '.Prepare()'. I am implementing '.Prepare()' now, and uploading it shortly. Our main project does use '.Prepare()' and still experiences the audio loss.__
 * Here is a video we experience audio loss with most often
    - https://avoinsights.com/dashboard/uploads/videos/46070F26-706A-467D-B800-D22584942A0F.mp4
+* Both audioOutputMode 'Direct' and 'Audio Source' have been tested
+  - An Audio Source component has been added to the Video Player gameObject for ease of testing
